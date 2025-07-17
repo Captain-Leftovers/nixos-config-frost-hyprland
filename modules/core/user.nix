@@ -24,6 +24,10 @@
     };
   };
 
+
+home-manager.backupFileExtension = "backup";
+
+
   users.users.${username} = {
     isNormalUser = true;
     description = "${username}";
